@@ -39,8 +39,8 @@ opencv-python==4.10.0.84
 
 ```bash
 # Clonar el repositorio
-git clone <url-del-repositorio>
-cd <nombre-del-repositorio>
+git clone https://github.com/OlmanOrtega/prototipo-recFacial.git
+cd prototipo-recFacial
 
 # Crear un entorno virtual
 python3.10 -m venv venv
