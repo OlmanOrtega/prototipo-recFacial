@@ -51,10 +51,10 @@ for archivo in os.listdir(carpeta):
     img_gris = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     
     if persona_encontrada:
-        texto = f"Olman encontrado ({mejor_confianza:.2f})"
+        texto = f"Persona encontrada umbral de confianza ({mejor_confianza:.2f})"
         color_texto = 255  # Blanco en grises
     else:
-        texto = "No Olman bla bla"
+        texto = "Persona no encontrada"
         color_texto = 255  
     
     # Agregar texto a la imagen en grises
